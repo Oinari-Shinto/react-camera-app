@@ -14,7 +14,7 @@ const NavBar = () => {
             </div>
             <div className="pr-8 md:block hidden">
                 <Link className="p-4" to='/'>Главная</Link>
-                <Link className="p-4" to='/menu'>Menu</Link>
+                <Link className="p-4" to='/menu'>Камеры</Link>
                 <Link className="p-4" to='/about'>О нас</Link>
                 <Link className="p-4" to='/contact'>Контакты</Link>
             </div>
