@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom'
 
 const NavBar = () => {
     return (
-        <nav>
+        <nav className='flex justify-between items-center h-16 bg-white text-black
+            relative shadow-sm font-mono' 
+            role="navigation"
+        >
             <Link to='/' className='pl-8'>EGG</Link>
             <div className="px-4 cursor-pointer md:hidden">
             <svg className="w-6 h-6" fill="none"
