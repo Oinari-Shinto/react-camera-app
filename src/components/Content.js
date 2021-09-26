@@ -8,7 +8,8 @@ const Content = () => {
             <img src={CameraOne} alt="" className="h-full rounded mb-20 shadow" />
             <div className="flex flex-col justify-center items-center">
             <h2 className="tent-2xl mb-2">Выбор камер и Гарантия Производителя</h2>
-
+            <img src={CameraTwo} alt="" className="h-full rounded mb-20 shadow" />
+                                
             </div>
         </div>
     )
