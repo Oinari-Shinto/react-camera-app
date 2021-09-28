@@ -7,7 +7,7 @@ const NavBar = () => {
             relative shadow-sm font-mono' 
             role="navigation"
         >
-            <Link to='/' className='pl-8'>EGG</Link>
+            <Link to='/' className='pl-8'>EGG-CAMERA</Link>
             <div className="px-4 cursor-pointer md:hidden">
             <svg className="w-6 h-6" fill="none"
              stroke="currentColor" viewBox="0 0 24 24"
