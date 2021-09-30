@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Menu = () => {
+const Catalog = () => {
     return (
         <div className="h-screen flex justify-center items-center bg-green-300">
             <h1 className="text-9xl uppercase font-black">
-                Menu
+                Catalog
             </h1>
         </div>
     )
 }
 
-export default Menu
+export default Catalog

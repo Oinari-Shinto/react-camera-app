@@ -1,15 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Home = () => {
+const DropDown = () => {
     return (
-        <div>
+        <div className='grid grid-rows-4 text-center item-center bg-yellow-500'>
             <Link className="p-4" to='/'>Главная</Link>
-                <Link className="p-4" to='/menu'>Камеры</Link>
-                <Link className="p-4" to='/about'>О нас</Link>
-                <Link className="p-4" to='/contact'>Контакты</Link>
+            <Link className="p-4" to='/catalog'>Камеры</Link>
+            <Link className="p-4" to='/about'>О нас</Link>
+            <Link className="p-4" to='/contact'>Контакты</Link>
         </div>
     )
 }
 
-export default Home
+export default DropDown
