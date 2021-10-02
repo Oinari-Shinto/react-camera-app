@@ -1,9 +1,11 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import CameraOne from '../images/Camera-1.png'
 
 const Hero = () => {
     return (
         <div className="bg-white h-screen flex flex-col justify-center items-center">
+            <img src={CameraOne} alt="" className="h-full rounded mb-20 " />
             <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14 items-center">
                 Видеонаблюдение
             </h1>
