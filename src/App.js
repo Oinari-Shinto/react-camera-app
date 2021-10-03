@@ -1,3 +1,4 @@
+import React, {useState, useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
@@ -10,10 +11,16 @@ import Menu from './pages/menu';
 import Catalog from './pages/catalog';
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
+
   return (
     <>
-      <NavBar />
-      <DropDown />
+      <NavBar toggle={toggle}/>
+      <DropDown isOpen={isOpen} toggle={toggle}/>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />
