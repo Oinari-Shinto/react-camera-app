@@ -9,6 +9,7 @@ import Home from './pages';
 import About from './pages/about';
 import Menu from './pages/menu';
 import Catalog from './pages/catalog';
+import Contact from './pages/contact';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -39,6 +40,8 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />
         <Route path="/catalog" exact component={Catalog} />
+        <Route path="/contact" exact component={Contact} />
+        
       </Switch>
       <Footer />
     </>

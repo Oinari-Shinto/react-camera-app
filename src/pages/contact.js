@@ -2,8 +2,18 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className="h-screen flex justify-center items-center bg-green-300">
+        <div className="h-screen flex   bg-green-300">
+            <div className="h-screen flex justify-center items-center bg-green-300">
             <h1 className="text-9xl uppercase font-black">
+                Реквизиты 
+                
+            </h1>
+            
+            
+            </div>
+            <div> </div>
+            <div className="h-screen flex   bg-green-300 justify-center ">
+            <p className=" text-1xl uppercase font-black">
             ООО «30 БАР»
             Юридический адрес: 194292,город Санкт-Петербург,Домостроительная улица, дом 4 литер а, помещение № 13
             Фактический адрес:194292,город Санкт-Петербург,Домостроительная улица, дом 4 литер а, помещение № 13
@@ -13,7 +23,12 @@ const Contact = () => {
             р/с 40702810055000021764 в СЕВЕРО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК Г. САНКТ-ПЕТЕРБУРГ
             кор.счет банка 30101810500000000653
             БИК 044030653
-            </h1>
+            </p>
+            </div>
+            
+            
+            
+            
         </div>
     )
 }
