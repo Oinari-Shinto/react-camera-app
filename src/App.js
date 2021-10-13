@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
@@ -7,7 +6,6 @@ import DropDown from './components/DropDown';
 import { Route, Switch } from 'react-router';
 import Home from './pages';
 import About from './pages/about';
-import Menu from './pages/menu';
 import Catalog from './pages/catalog';
 import Contact from './pages/contact';
 
