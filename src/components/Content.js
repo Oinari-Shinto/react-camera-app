@@ -1,5 +1,5 @@
 import React from 'react'
-import CameraOne from '../images/Camera-1.png'
+
 import CameraTwo from '../images/Camera-2.jpg'
 
 const Content = () => {
