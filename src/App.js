@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
-/* import NavBar from './components/NavBar'; */
+import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import DropDown from './components/DropDown';
 import { Route, Switch } from 'react-router';
@@ -32,7 +32,7 @@ function App() {
 
   return (
     <>
-     {/*  <NavBar toggle={toggle}/> */}
+      <NavBar toggle={toggle}/>
       <DropDown isOpen={isOpen} toggle={toggle}/>
       <Switch>
         <Route path="/" exact component={Home} />
