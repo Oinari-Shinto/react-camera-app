@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
-import NavBar from './components/NavBar';
+/* import NavBar from './components/NavBar'; */
 import Footer from './components/Footer';
 import DropDown from './components/DropDown';
 import { Route, Switch } from 'react-router';
@@ -8,6 +8,7 @@ import Home from './pages';
 import About from './pages/about';
 import Catalog from './pages/catalog';
 import Contact from './pages/contact';
+import MenuBar from './components/MenuBar'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -32,7 +33,8 @@ function App() {
 
   return (
     <>
-      <NavBar toggle={toggle}/>
+      {/* <NavBar toggle={toggle}/> */}
+      <MenuBar toggle={toggle}/>
       <DropDown isOpen={isOpen} toggle={toggle}/>
       <Switch>
         <Route path="/" exact component={Home} />

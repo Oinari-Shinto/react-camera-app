@@ -1,7 +1,7 @@
-/* import React from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
-const NavBar = ({ toggle }) => {
+const MenuBar = ({ toggle }) => {
     return (
         <nav className='flex justify-between items-center h-16 bg-white text-black
             relative shadow-sm font-mono' 
@@ -27,5 +27,4 @@ const NavBar = ({ toggle }) => {
     )
 }
 
-export default NavBar
- */
+export default MenuBar
